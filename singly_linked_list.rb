@@ -172,3 +172,12 @@ class SinglyLinkedList
     node_or_data.instance_of?(Node) ? node_or_data : Node.new(node_or_data)
   end
 end
+
+newlist = SinglyLinkedList.new(3)
+newlist.insert_at_start(4)
+newlist.insert_at_end(4)
+a = Node.new(2)
+newlist.insert_at_end(a)
+
+
+ newlist.inspect
